@@ -1,0 +1,113 @@
+:root {
+    --cor-primaria: rgb(0, 0, 139);
+    /* verde-floresta */
+    --cor-secundaria: #000;
+    /* bege médio */
+    --cor-destaque1: #000;
+    /* azul-escuro acinzentado */
+    --cor-destaque2: #008CFF;
+    /* amarelo-claro dourado */
+    --fonte-titulo: "Times New Roman", "Georgia", serif;
+    --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #fff;
+    color: var(--cor-destaque2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-body);
+    color: var(--cor-destaque1);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.redes-sociais a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.redes-sociais img {
+    width: 300px;
+    height: 250px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+.hero {
+    position: relative;
+    min-height: 500px;
+    background-image: url("../imagens/imagemrafting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--cor-destaque1);
+    color: #fff;
+
+    /* texto branco – certifique-se de que haja contraste suficiente com a cor de fundo */
+}
+
+.hero article {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    padding: 8px;
+    background-color: rgba(244, 201, 76, 0.85);
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    height: auto;
+    margin-left: 15px;
+    margin-top: 5px;
+}
