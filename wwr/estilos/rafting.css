@@ -1,7 +1,6 @@
 :root {
-    --cor-primaria: rgb(0, 0, 139);
+    --cor-primaria: #00008B;
     /* verde-floresta */
-    --cor-secundaria: #000;
     /* bege médio */
     --cor-destaque1: #000;
     /* azul-escuro acinzentado */
@@ -50,7 +49,7 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+footer a {
     text-decoration: none;
 }
 
