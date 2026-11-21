@@ -4,7 +4,7 @@
     /* bege médio */
     --cor-destaque1: #000;
     /* azul-escuro acinzentado */
-    --cor-destaque2: #008CFF;
+    --cor-destaque2: #0066CC;
     /* amarelo-claro dourado */
     --fonte-titulo: "Times New Roman", "Georgia", serif;
     --fonte-body: Arial, Helvetica, sans-serif;
@@ -88,6 +88,10 @@ footer {
 .hero {
     position: relative;
     min-height: 500px;
+}
+
+.hero h1 {
+    position: absolute;
 }
 
 .hero > img {
