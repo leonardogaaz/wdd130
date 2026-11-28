@@ -176,3 +176,15 @@ h1 {
 .aventuras figure {
     width: 120px;
 }
+
+.equipe img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
+
+.equipe {
+    margin: 0;
+    padding: 0;
+}
