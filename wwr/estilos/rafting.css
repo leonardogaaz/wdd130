@@ -16,6 +16,9 @@ header {
     display: grid;
     grid-template-columns: 128px 1fr auto;
     align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    gap: 20px;
 }
 
 nav ul {
@@ -25,7 +28,8 @@ nav ul {
 }
 
 header img {
-    width: 120px;
+    width: 100px;
+    height: auto;
 }
 
 * {
@@ -189,18 +193,6 @@ h1 {
     padding: 0;
 }
 
-header {
-    align-items: center;
-    justify-content: space-between;
-    padding: 12px 20px;
-    gap: 20px;
-}
-
-header img {
-    width: 80px;
-    height: auto;
-}
-
 header h1 {
     position: static;
     width: auto;
@@ -208,5 +200,5 @@ header h1 {
 }
 
 header nav a {
-    color: white;
+    color: var(--cor-primaria);
 }
