@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa</title>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form>
+            <label for="nome-completo">Nome Completo:</label>
+            <input type="text" id="nome-completo" name="nome-completo" required>
+            <label for="email-do-usuario">E-mail:</label>
+            <input type="email" id="email-do-usuario" name="email-do-usuario" required>
+            <label for="navegador">Qual é o seu navegador de internet favorito ?</label>
+            <select name="navegador" id="navegador">
+                <option value="chrome">Chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="edge">Edge</option>
+                <option value="brave">Brave</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="pet">Você tem um bichinho de estimação?</label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="feedback">Liste os lugares onde você morou:</label>
+            <textarea id="feedback" name="feedback" rows="2"
+              placeholder="Itapema Santa Catarina, Curitiba Parana"></textarea>
+            <button type="submit">Enviar Pesquisa</button>
+
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
